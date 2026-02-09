@@ -17,6 +17,7 @@ public class ParImpar {
     int[] vetor_numeros = new int[100];
     int i=0, contador =0;
     int numero;
+
     while(true){
         numero = scan.nextInt();
         if(numero == -1) break;
