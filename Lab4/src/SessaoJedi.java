@@ -35,7 +35,7 @@ public class SessaoJedi {
     }
 
     void addIniciado(IniciadoJedi iniciado){
-        for (IniciadoJedi i : iniciados){
+        for (IniciadoJedi i : iniciados){ //Inspirado em um código do StackoverFlow
             if (i.nome.equals(iniciado.nome)){
                 return;
             }
@@ -58,7 +58,7 @@ public class SessaoJedi {
         for (IniciadoJedi i : iniciados){
             soma += i.anoNascimento;
         }
-        return soma / iniciados.size();
+        return soma/iniciados.size();
     }
 
     String getDescricao(){
